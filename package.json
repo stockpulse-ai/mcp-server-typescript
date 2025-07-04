@@ -19,8 +19,13 @@
     "node": ">=18"
   },
   "keywords": [
+    "finance",
+    "mcp",
     "modelcontextprotocol",
-    "mcp"
+    "sentiment",
+    "stocks",
+    "trading",
+    "wallstreetbets"
   ],
   "author": "Stockpulse GmbH",
   "bugs": "https://github.com/stockpulse-ai/mcp-server-typescript/issues",
