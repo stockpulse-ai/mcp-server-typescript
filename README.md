@@ -54,7 +54,7 @@ Make sure to replace `STOCKPULSE_API_USER` and `STOCKPULSE_API_PASSWORD` with yo
 
 This is what it should look like on Windows:
 
-<img src="https://raw.githubusercontent.com/stockpulse-ai/mcp-server-typescript/refs/tags/1.0.0/docs/claude-desktop-1.gif" />
+<img src="https://raw.githubusercontent.com/stockpulse-ai/mcp-server-typescript/refs/tags/v1.0.0/docs/claude-desktop-1.gif" />
 
 You will also need [Node.js](https://nodejs.org/) on your computer for this to run properly.
 To check if Node is installed, open the command line on your computer.
