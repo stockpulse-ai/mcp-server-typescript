@@ -1,0 +1,47 @@
+{
+  "name": "@stockpulse-ai/mcp-server-typescript",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for the Stockpulse API",
+  "main": "index.js",
+  "bin": {
+    "stockpulse-mcp-server-typescript": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "inspector": "npm run build && npx -y @modelcontextprotocol/inspector node build/index.js",
+    "lint": "eslint \"**/*.{js,ts}\" --quiet",
+    "prepack": "npm run build",
+    "serve": "node build/index.js",
+    "start": "npm run --silent serve -- \"$@\"",
+    "start:dev": "npm run build && npm run serve -- \"$@\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "modelcontextprotocol",
+    "mcp"
+  ],
+  "author": "Stockpulse GmbH",
+  "bugs": "https://github.com/stockpulse-ai/mcp-server-typescript/issues",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stockpulse-ai/mcp-server-typescript.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
+    "dotenv": "^17.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@types/node": "^22.13.17",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.1"
+  },
+  "files": [
+    "build/**"
+  ]
+}
