@@ -1,6 +1,6 @@
 {
-  "name": "@stockpulse-ai/mcp-server-typescript",
-  "version": "1.0.1",
+  "name": "@stockpulse-ai/mcp-server",
+  "version": "1.0.2",
   "description": "Model Context Protocol (MCP) server for the Stockpulse API",
   "main": "index.js",
   "bin": {
