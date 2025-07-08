@@ -1,4 +1,4 @@
-# Stockpulse MCP Server ![NPM Version](https://img.shields.io/npm/v/%40stockpulse-ai%2Fmcp-server-typescript) ![ISC licensed](https://img.shields.io/npm/l/%40stockpulse-ai%2Fmcp-server-typescript)
+# Stockpulse MCP Server ![NPM Version](https://img.shields.io/npm/v/%40stockpulse-ai%2Fmcp-server) ![ISC licensed](https://img.shields.io/npm/l/%40stockpulse-ai%2Fmcp-server)
 
 This repository implements a Model Context Protocol (MCP) server for the Stockpulse API, allowing seamless integration and data exchange. It leverages the `@modelcontextprotocol/sdk/server/mcp.js` library for efficient MCP handling.
 
