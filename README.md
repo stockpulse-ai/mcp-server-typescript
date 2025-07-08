@@ -1,14 +1,22 @@
 # Stockpulse MCP Server ![NPM Version](https://img.shields.io/npm/v/%40stockpulse-ai%2Fmcp-server) ![ISC licensed](https://img.shields.io/npm/l/%40stockpulse-ai%2Fmcp-server)
 
-This repository implements a Model Context Protocol (MCP) server for the Stockpulse API, allowing seamless integration and data exchange. It leverages the `@modelcontextprotocol/sdk/server/mcp.js` library for efficient MCP handling.
+Easily connect real-time financial sentiment from Stockpulse.AI to your apps, bots, and AI tools using the Model Context Protocol (MCP). This server delivers fast, context-aware access to Stockpulse’s powerful data — no scraping or complex setup needed.
 
 ## Stockpulse.AI
 
-**Stockpulse.AI** empowers users to analyze financial news and community sentiment using advanced artificial intelligence. 🚀
+Stockpulse.AI uses AI to analyze global financial chatter and news from platforms like X, Reddit, YouTube, and more — turning noise into actionable insight. 🚀
 
-## Overview
+## Why should I use this?
 
-This server acts as a bridge between a client implementing the MCP and the Stockpulse API. It facilitates the retrieval and processing of financial data, enabling context-aware interactions.
+**🚀 Plug & play social sentiment** - Get instant access to real-time social media buzz from X, Reddit, TikTok & more — no scraping, no hassle. Ideal for chatbots, trading tools & AI apps. [Learn more »](https://stockpulse.ai/products/)
+
+**🧠 AI-ready & LLM-friendly** - Easily connect Stockpulse’s insights to your assistants or LLMs — perfect for building smarter, context-aware tools. [Use cases »](https://stockpulse.ai/use-cases/)
+
+**📊 Detect hype, avoid traps** - Identify suspicious spikes, pump & dump activity, or insider patterns early — essential for surveillance & compliance teams. [See how »](https://stockpulse.ai/use-cases/surveillance/)
+
+**📈 Over 10 years of data** - Use our rich historical sentiment data for backtesting, analytics, and predictive modeling. [Data insights »](https://stockpulse.ai/products/)
+
+**⚙️ Enterprise-grade, dev-friendly** - Scalable, fast, and secure — trusted by major players like Deutsche Börse, Moody’s, and Refinitiv. Built for performance and reliability. [About us »](https://stockpulse.ai/company/#about-us)
 
 ## Prerequisites
 
