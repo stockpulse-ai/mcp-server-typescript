@@ -38,8 +38,6 @@ This will display the configuration file in your file system located at:
 
 Open the configuration file in a text editor. Replace the contents of the file with this:
 
-Replace "STOCKPULSE_API_USER" and "STOCKPULSE_API_PASSWORD" with your username and password.
-
 ```json
 {
   "mcpServers": {
@@ -58,7 +56,15 @@ Replace "STOCKPULSE_API_USER" and "STOCKPULSE_API_PASSWORD" with your username a
 }
 ```
 
-Make sure to replace `STOCKPULSE_API_USER` and `STOCKPULSE_API_PASSWORD` with your credentials.
+Make sure to fill in your credentials:
+- Find where it says "your-stockpulse-login" and carefully type in your Stockpulse login name instead. Make sure to keep the quotation marks (") around what you type!
+- Find where it says "your-stockpulse-password" and carefully type in your Stockpulse password instead. Again, make sure to keep the quotation marks (") around your password!
+
+So, if your login was `myuser` and your password was `mypass123`, that part would look like this:
+```json
+        "STOCKPULSE_API_USER": "myuser",
+        "STOCKPULSE_API_PASSWORD": "mypass123"
+```
 
 This is what it should look like on Windows:
 
